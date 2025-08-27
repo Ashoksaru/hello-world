@@ -1,0 +1,16 @@
+public class DataTypeDemo2 {
+    public static void main(String[] args) {
+        int age = 25;
+        int distance = 15;
+        double pi = 3.14;
+        boolean isJavaFun = true;
+
+
+        int sum = age + distance;
+        boolean result = isJavaFun && (pi < 3.5);
+
+        System.out.println("Sum of age and distance: " + sum);
+        System.out.println("Is Java fun and pi < 3.5? " + result);
+    }
+}
+
